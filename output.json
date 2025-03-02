@@ -1,0 +1,813 @@
+{
+    "Items": [
+        {
+            "Count_ID": "59",
+            "TruckNumber": 1,
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "weight": 9.95
+        },
+        {
+            "Count_ID": "28",
+            "TruckNumber": 1,
+            "x": 1.1289,
+            "y": 0,
+            "z": 0,
+            "weight": 9.86
+        },
+        {
+            "Count_ID": "99",
+            "TruckNumber": 1,
+            "x": 0,
+            "y": 1.1289,
+            "z": 0,
+            "weight": 9.86
+        },
+        {
+            "Count_ID": "80",
+            "TruckNumber": 1,
+            "x": 2.4465,
+            "y": 0,
+            "z": 0,
+            "weight": 9.74
+        },
+        {
+            "Count_ID": "57",
+            "TruckNumber": 1,
+            "x": 1.1289,
+            "y": 0.8676,
+            "z": 0,
+            "weight": 9.65
+        },
+        {
+            "Count_ID": "46",
+            "TruckNumber": 1,
+            "x": 0.06,
+            "y": 1.1289,
+            "z": 0,
+            "weight": 9.61
+        },
+        {
+            "Count_ID": "77",
+            "TruckNumber": 1,
+            "x": 2.6639,
+            "y": 0,
+            "z": 0,
+            "weight": 9.59
+        },
+        {
+            "Count_ID": "52",
+            "TruckNumber": 1,
+            "x": 1.7412,
+            "y": 0.8676,
+            "z": 0,
+            "weight": 9.47
+        },
+        {
+            "Count_ID": "21",
+            "TruckNumber": 1,
+            "x": 2.9377,
+            "y": 0,
+            "z": 0,
+            "weight": 9.42
+        },
+        {
+            "Count_ID": "2",
+            "TruckNumber": 1,
+            "x": 1.1289,
+            "y": 1.4799,
+            "z": 0,
+            "weight": 8.99
+        },
+        {
+            "Count_ID": "8",
+            "TruckNumber": 1,
+            "x": 3.9616,
+            "y": 0,
+            "z": 0,
+            "weight": 8.75
+        },
+        {
+            "Count_ID": "4",
+            "TruckNumber": 1,
+            "x": 2.4465,
+            "y": 0.21739999999999998,
+            "z": 0,
+            "weight": 8.67
+        },
+        {
+            "Count_ID": "40",
+            "TruckNumber": 1,
+            "x": 0.6900999999999999,
+            "y": 1.1289,
+            "z": 0,
+            "weight": 8.67
+        },
+        {
+            "Count_ID": "43",
+            "TruckNumber": 1,
+            "x": 5.372199999999999,
+            "y": 0,
+            "z": 0,
+            "weight": 8.42
+        },
+        {
+            "Count_ID": "51",
+            "TruckNumber": 1,
+            "x": 6.587199999999999,
+            "y": 0,
+            "z": 0,
+            "weight": 8.41
+        },
+        {
+            "Count_ID": "49",
+            "TruckNumber": 1,
+            "x": 0.06,
+            "y": 1.759,
+            "z": 0,
+            "weight": 8.38
+        },
+        {
+            "Count_ID": "44",
+            "TruckNumber": 1,
+            "x": 3.9616,
+            "y": 1.1223999999999998,
+            "z": 0,
+            "weight": 7.98
+        },
+        {
+            "Count_ID": "19",
+            "TruckNumber": 1,
+            "x": 2.6639,
+            "y": 1.0791,
+            "z": 0,
+            "weight": 7.97
+        },
+        {
+            "Count_ID": "23",
+            "TruckNumber": 1,
+            "x": 2.9377,
+            "y": 0.8478,
+            "z": 0,
+            "weight": 7.76
+        },
+        {
+            "Count_ID": "7",
+            "TruckNumber": 1,
+            "x": 5.372199999999999,
+            "y": 1.215,
+            "z": 0,
+            "weight": 7.52
+        },
+        {
+            "Count_ID": "90",
+            "TruckNumber": 1,
+            "x": 0,
+            "y": 1.6628,
+            "z": 0,
+            "weight": 7.45
+        },
+        {
+            "Count_ID": "60",
+            "TruckNumber": 1,
+            "x": 8.068299999999999,
+            "y": 0,
+            "z": 0,
+            "weight": 7.24
+        },
+        {
+            "Count_ID": "86",
+            "TruckNumber": 1,
+            "x": 2.0969,
+            "y": 0.8676,
+            "z": 0,
+            "weight": 6.89
+        },
+        {
+            "Count_ID": "22",
+            "TruckNumber": 1,
+            "x": 1.7412,
+            "y": 1.2233,
+            "z": 0,
+            "weight": 6.67
+        },
+        {
+            "Count_ID": "73",
+            "TruckNumber": 1,
+            "x": 1.4848000000000001,
+            "y": 1.4799,
+            "z": 0,
+            "weight": 6.57
+        },
+        {
+            "Count_ID": "10",
+            "TruckNumber": 1,
+            "x": 2.4465,
+            "y": 1.3625,
+            "z": 0,
+            "weight": 6.56
+        },
+        {
+            "Count_ID": "82",
+            "TruckNumber": 1,
+            "x": 1.1289,
+            "y": 2.4736000000000002,
+            "z": 0,
+            "weight": 6.53
+        },
+        {
+            "Count_ID": "65",
+            "TruckNumber": 1,
+            "x": 6.587199999999999,
+            "y": 1.4811,
+            "z": 0,
+            "weight": 6.49
+        },
+        {
+            "Count_ID": "12",
+            "TruckNumber": 1,
+            "x": 0.8401,
+            "y": 1.1289,
+            "z": 0,
+            "weight": 6.3
+        },
+        {
+            "Count_ID": "20",
+            "TruckNumber": 1,
+            "x": 0.6900999999999999,
+            "y": 1.2789,
+            "z": 0,
+            "weight": 6.09
+        },
+        {
+            "Count_ID": "34",
+            "TruckNumber": 1,
+            "x": 0.06,
+            "y": 2.2195,
+            "z": 0,
+            "weight": 6.01
+        },
+        {
+            "Count_ID": "94",
+            "TruckNumber": 1,
+            "x": 5.0093,
+            "y": 1.1223999999999998,
+            "z": 0,
+            "weight": 5.99
+        },
+        {
+            "Count_ID": "55",
+            "TruckNumber": 1,
+            "x": 0.5205,
+            "y": 1.759,
+            "z": 0,
+            "weight": 5.94
+        },
+        {
+            "Count_ID": "75",
+            "TruckNumber": 1,
+            "x": 3.9616,
+            "y": 2.1700999999999997,
+            "z": 0,
+            "weight": 5.92
+        },
+        {
+            "Count_ID": "72",
+            "TruckNumber": 1,
+            "x": 2.9377,
+            "y": 2.2559,
+            "z": 0,
+            "weight": 5.92
+        },
+        {
+            "Count_ID": "32",
+            "TruckNumber": 1,
+            "x": 5.372199999999999,
+            "y": 1.9900000000000002,
+            "z": 0,
+            "weight": 5.89
+        },
+        {
+            "Count_ID": "25",
+            "TruckNumber": 1,
+            "x": 8.817499999999999,
+            "y": 0,
+            "z": 0,
+            "weight": 5.84
+        },
+        {
+            "Count_ID": "83",
+            "TruckNumber": 1,
+            "x": 8.068299999999999,
+            "y": 0.7492,
+            "z": 0,
+            "weight": 5.6
+        },
+        {
+            "Count_ID": "84",
+            "TruckNumber": 1,
+            "x": 2.6639,
+            "y": 2.4752,
+            "z": 0,
+            "weight": 5.6
+        },
+        {
+            "Count_ID": "41",
+            "TruckNumber": 1,
+            "x": 9.354199999999999,
+            "y": 0,
+            "z": 0,
+            "weight": 5.5
+        },
+        {
+            "Count_ID": "27",
+            "TruckNumber": 1,
+            "x": 8.068299999999999,
+            "y": 1.0776,
+            "z": 0,
+            "weight": 5.42
+        },
+        {
+            "Count_ID": "9",
+            "TruckNumber": 1,
+            "x": 7.711799999999999,
+            "y": 1.4811,
+            "z": 0,
+            "weight": 5.36
+        },
+        {
+            "Count_ID": "6",
+            "TruckNumber": 1,
+            "x": 2.0969,
+            "y": 2.326,
+            "z": 0,
+            "weight": 5.06
+        },
+        {
+            "Count_ID": "85",
+            "TruckNumber": 1,
+            "x": 4.4178,
+            "y": 2.1700999999999997,
+            "z": 0,
+            "weight": 4.98
+        },
+        {
+            "Count_ID": "17",
+            "TruckNumber": 1,
+            "x": 1.8912,
+            "y": 1.2233,
+            "z": 0,
+            "weight": 4.87
+        },
+        {
+            "Count_ID": "96",
+            "TruckNumber": 1,
+            "x": 3.8474,
+            "y": 0.8478,
+            "z": 0,
+            "weight": 4.84
+        },
+        {
+            "Count_ID": "33",
+            "TruckNumber": 1,
+            "x": 5.0093,
+            "y": 1.4116,
+            "z": 0,
+            "weight": 4.68
+        },
+        {
+            "Count_ID": "15",
+            "TruckNumber": 1,
+            "x": 10.369,
+            "y": 0,
+            "z": 0,
+            "weight": 4.65
+        },
+        {
+            "Count_ID": "11",
+            "TruckNumber": 1,
+            "x": 1.7412,
+            "y": 1.9709,
+            "z": 0,
+            "weight": 4.62
+        },
+        {
+            "Count_ID": "29",
+            "TruckNumber": 1,
+            "x": 1.4848000000000001,
+            "y": 1.8845,
+            "z": 0,
+            "weight": 4.53
+        },
+        {
+            "Count_ID": "63",
+            "TruckNumber": 1,
+            "x": 5.640999999999999,
+            "y": 1.9900000000000002,
+            "z": 0,
+            "weight": 4.47
+        },
+        {
+            "Count_ID": "69",
+            "TruckNumber": 1,
+            "x": 3.3801,
+            "y": 2.2559,
+            "z": 0,
+            "weight": 4.2
+        },
+        {
+            "Count_ID": "70",
+            "TruckNumber": 1,
+            "x": 8.817499999999999,
+            "y": 0.9634999999999999,
+            "z": 0,
+            "weight": 4.18
+        },
+        {
+            "Count_ID": "62",
+            "TruckNumber": 1,
+            "x": 9.354199999999999,
+            "y": 1.0148000000000001,
+            "z": 0,
+            "weight": 3.95
+        },
+        {
+            "Count_ID": "87",
+            "TruckNumber": 1,
+            "x": 8.068299999999999,
+            "y": 2.1307,
+            "z": 0,
+            "weight": 3.9
+        },
+        {
+            "Count_ID": "30",
+            "TruckNumber": 1,
+            "x": 6.587199999999999,
+            "y": 2.6057,
+            "z": 0,
+            "weight": 3.88
+        },
+        {
+            "Count_ID": "61",
+            "TruckNumber": 1,
+            "x": 11.0684,
+            "y": 0,
+            "z": 0,
+            "weight": 3.83
+        },
+        {
+            "Count_ID": "26",
+            "TruckNumber": 1,
+            "x": 12.544500000000001,
+            "y": 0,
+            "z": 0,
+            "weight": 3.76
+        },
+        {
+            "Count_ID": "81",
+            "TruckNumber": 1,
+            "x": 2.5965,
+            "y": 0.21739999999999998,
+            "z": 0,
+            "weight": 3.75
+        },
+        {
+            "Count_ID": "58",
+            "TruckNumber": 1,
+            "x": 11.0684,
+            "y": 1.4761000000000002,
+            "z": 0,
+            "weight": 3.66
+        },
+        {
+            "Count_ID": "47",
+            "TruckNumber": 1,
+            "x": 10.369,
+            "y": 0.8839,
+            "z": 0,
+            "weight": 3.66
+        },
+        {
+            "Count_ID": "5",
+            "TruckNumber": 1,
+            "x": 13.308700000000002,
+            "y": 0,
+            "z": 0,
+            "weight": 3.63
+        },
+        {
+            "Count_ID": "42",
+            "TruckNumber": 1,
+            "x": 9.354199999999999,
+            "y": 1.9933,
+            "z": 0,
+            "weight": 3.63
+        },
+        {
+            "Count_ID": "18",
+            "TruckNumber": 1,
+            "x": 12.544500000000001,
+            "y": 1.2519,
+            "z": 0,
+            "weight": 3.61
+        },
+        {
+            "Count_ID": "53",
+            "TruckNumber": 1,
+            "x": 10.369,
+            "y": 1.4591,
+            "z": 0,
+            "weight": 3.54
+        },
+        {
+            "Count_ID": "89",
+            "TruckNumber": 1,
+            "x": 13.308700000000002,
+            "y": 1.429,
+            "z": 0,
+            "weight": 3.43
+        },
+        {
+            "Count_ID": "56",
+            "TruckNumber": 1,
+            "x": 2.9377,
+            "y": 0.8478,
+            "z": 0.6104999999999999,
+            "weight": 3.37
+        },
+        {
+            "Count_ID": "66",
+            "TruckNumber": 1,
+            "x": 3.9616,
+            "y": 0,
+            "z": 0.6211,
+            "weight": 3.31
+        },
+        {
+            "Count_ID": "79",
+            "TruckNumber": 1,
+            "x": 6.4758,
+            "y": 1.215,
+            "z": 0,
+            "weight": 3.16
+        },
+        {
+            "Count_ID": "13",
+            "TruckNumber": 1,
+            "x": 2.4465,
+            "y": 2.3529,
+            "z": 0,
+            "weight": 2.75
+        },
+        {
+            "Count_ID": "37",
+            "TruckNumber": 1,
+            "x": 9.701299999999998,
+            "y": 1.9933,
+            "z": 0,
+            "weight": 2.66
+        },
+        {
+            "Count_ID": "92",
+            "TruckNumber": 1,
+            "x": 10.369,
+            "y": 1.969,
+            "z": 0,
+            "weight": 2.58
+        },
+        {
+            "Count_ID": "16",
+            "TruckNumber": 1,
+            "x": 13.308700000000002,
+            "y": 1.429,
+            "z": 0.392,
+            "weight": 2.48
+        },
+        {
+            "Count_ID": "76",
+            "TruckNumber": 1,
+            "x": 10.369,
+            "y": 0.8839,
+            "z": 0.5752,
+            "weight": 1.98
+        },
+        {
+            "Count_ID": "88",
+            "TruckNumber": 1,
+            "x": 0.3464,
+            "y": 2.2195,
+            "z": 0,
+            "weight": 1.93
+        },
+        {
+            "Count_ID": "50",
+            "TruckNumber": 1,
+            "x": 2.9377,
+            "y": 0,
+            "z": 0.9329999999999999,
+            "weight": 1.88
+        },
+        {
+            "Count_ID": "36",
+            "TruckNumber": 1,
+            "x": 0.8401,
+            "y": 2.021,
+            "z": 0,
+            "weight": 1.86
+        },
+        {
+            "Count_ID": "31",
+            "TruckNumber": 1,
+            "x": 5.372199999999999,
+            "y": 2.4650000000000003,
+            "z": 0,
+            "weight": 1.76
+        },
+        {
+            "Count_ID": "74",
+            "TruckNumber": 1,
+            "x": 2.9377,
+            "y": 1.4916,
+            "z": 0.6104999999999999,
+            "weight": 1.74
+        },
+        {
+            "Count_ID": "38",
+            "TruckNumber": 1,
+            "x": 11.0684,
+            "y": 0,
+            "z": 1.4761000000000002,
+            "weight": 1.39
+        },
+        {
+            "Count_ID": "97",
+            "TruckNumber": 1,
+            "x": 1.1289,
+            "y": 0.8676,
+            "z": 0.6123,
+            "weight": 1.25
+        },
+        {
+            "Count_ID": "54",
+            "TruckNumber": 1,
+            "x": 6.587199999999999,
+            "y": 0,
+            "z": 1.4811,
+            "weight": 1.08
+        },
+        {
+            "Count_ID": "3",
+            "TruckNumber": 1,
+            "x": 5.372199999999999,
+            "y": 1.215,
+            "z": 0.7012,
+            "weight": 1.0
+        },
+        {
+            "Count_ID": "24",
+            "TruckNumber": 1,
+            "x": 8.817499999999999,
+            "y": 0,
+            "z": 0.6451,
+            "weight": 1.0
+        },
+        {
+            "Count_ID": "14",
+            "TruckNumber": 1,
+            "x": 9.117899999999999,
+            "y": 0.9634999999999999,
+            "z": 0,
+            "weight": 1.0
+        },
+        {
+            "Count_ID": "71",
+            "TruckNumber": 1,
+            "x": 0.06,
+            "y": 1.1289,
+            "z": 0.6301,
+            "weight": 1.0
+        },
+        {
+            "Count_ID": "95",
+            "TruckNumber": 1,
+            "x": 0.06,
+            "y": 1.759,
+            "z": 0.46049999999999996,
+            "weight": 1.0
+        },
+        {
+            "Count_ID": "1",
+            "TruckNumber": 1,
+            "x": 8.817499999999999,
+            "y": 1.2639,
+            "z": 0,
+            "weight": 1.0
+        },
+        {
+            "Count_ID": "91",
+            "TruckNumber": 1,
+            "x": 8.068299999999999,
+            "y": 0,
+            "z": 0.7492,
+            "weight": 1.0
+        },
+        {
+            "Count_ID": "64",
+            "TruckNumber": 1,
+            "x": 9.354199999999999,
+            "y": 1.0148000000000001,
+            "z": 0.9784999999999999,
+            "weight": 1.0
+        },
+        {
+            "Count_ID": "78",
+            "TruckNumber": 1,
+            "x": 0.06,
+            "y": 2.5059,
+            "z": 0,
+            "weight": 1.0
+        },
+        {
+            "Count_ID": "93",
+            "TruckNumber": 1,
+            "x": 3.9616,
+            "y": 2.6262999999999996,
+            "z": 0,
+            "weight": 1.0
+        },
+        {
+            "Count_ID": "68",
+            "TruckNumber": 1,
+            "x": 4.707199999999999,
+            "y": 2.1700999999999997,
+            "z": 0,
+            "weight": 1.0
+        },
+        {
+            "Count_ID": "67",
+            "TruckNumber": 1,
+            "x": 4.4178,
+            "y": 2.4595,
+            "z": 0,
+            "weight": 1.0
+        },
+        {
+            "Count_ID": "48",
+            "TruckNumber": 1,
+            "x": 5.0093,
+            "y": 1.7286,
+            "z": 0,
+            "weight": 1.0
+        },
+        {
+            "Count_ID": "39",
+            "TruckNumber": 1,
+            "x": 2.0969,
+            "y": 2.5649,
+            "z": 0,
+            "weight": 1.0
+        },
+        {
+            "Count_ID": "45",
+            "TruckNumber": 1,
+            "x": 0.6900999999999999,
+            "y": 1.8807,
+            "z": 0,
+            "weight": 1.0
+        },
+        {
+            "Count_ID": "98",
+            "TruckNumber": 1,
+            "x": 0,
+            "y": 1.7228,
+            "z": 0,
+            "weight": 1.0
+        },
+        {
+            "Count_ID": "35",
+            "TruckNumber": 2,
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "weight": 1.71
+        }
+    ],
+    "TruckStats": [
+        {
+            "TruckNumber": 1,
+            "ItemCount": 98,
+            "TotalWeight": 464.94000000000005,
+            "WeightUtilization": "4.65%",
+            "RemainingCapacity": 9535.06
+        },
+        {
+            "TruckNumber": 2,
+            "ItemCount": 1,
+            "TotalWeight": 1.71,
+            "WeightUtilization": "0.02%",
+            "RemainingCapacity": 9998.29
+        }
+    ],
+    "TotalTrucks": 2
+}
