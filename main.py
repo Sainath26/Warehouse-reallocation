@@ -107,7 +107,7 @@ class Truck:
 
 
 """ 
-
+This function is used to process the json data and convert it into a list of Item(custom class) objects
 """
 def loadItems(jsonData):
     items = []
@@ -288,6 +288,9 @@ for item in items:
         if not placed:
             print(f"Item {countId} couldn't be placed in a new truck.")
 
+
+
+
 """ 
 This part of the code is used to write the output to a json file
 """
@@ -312,6 +315,6 @@ jsonString = json.dumps(output, indent=4)
 filePath = "warehouse-reallocation/output.json"
 with open(filePath, "w") as jsonFile:
     jsonFile.write(jsonString)
-    
+
 print(f"JSON data has been written to {filePath}")
 print(f"Total trucks used: {len(trucks)}")
