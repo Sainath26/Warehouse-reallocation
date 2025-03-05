@@ -10,3 +10,11 @@ Here is the description of the project
 - Outcomes:
   - An application which calculates the fewest journeys needed to transfer all my stock between the two locations.
   - It must also provide information on how to load the lorries (i.e. which items to load where on the truck). This needs to consider the weight of individual items (we can’t stack a car engine on top of headlamp bulbs…)
+
+
+Algorithms Used:
+1. 3D Bin Packing (with rotation)
+2. Greedy Algorithm
+3. First Fit Decreasing (FFD)
+4. Next Fit
+5. Space Partitioning
