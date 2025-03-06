@@ -1,12 +1,119 @@
 # Warehouse Reallocation
 
-This project is currently being built. More details will be added soon.
+## Warehouse Relocation Project: 3D Bin Packing and Visualization
 
-Here is the description of the project
+This project implements a 3D bin-packing algorithm to optimize the placement of items in trucks for warehouse relocation. It includes visualization tools to inspect the packing results interactively and in summary form.
 
-- Business need: - I am a business owner of a warehousing and distribution company. I have a warehouse in Newcastle which we are relocating to new premises in Sheffield. All our stock must all be transported to the new warehouse in the shortest possible time. - The items are of vastly varying shapes, sizes and weights – e.g. boxes, cylinders and spheres. - All my trucks are identical with side-loading doors (curtains). Length 14m, Width 2.8m, Door Height 2.8m.
-  Their maximum cargo weight is 10,000 kg.
+## File Structure
 
-- Outcomes:
-  - An application which calculates the fewest journeys needed to transfer all my stock between the two locations.
-  - It must also provide information on how to load the lorries (i.e. which items to load where on the truck). This needs to consider the weight of individual items (we can’t stack a car engine on top of headlamp bulbs…)
+```plaintext
+
+WAREHOUSERELOCATION/
+├── warehouse-reallocation/
+│ |-- data_99_items.json # Sample dataset (99 items)
+│ |-- data_999_items.json # Main dataset (999 items)
+│ |-- output.json # Generated packing plan
+| |-- main.py # Core packing algorithm
+| |-- mainViz.py # Interactive 3D visualization (Plotly)
+| |-- summaryViz.py # Summary visualization (Matplotlib)
+| |-- README.md # This file
+```
+
+## Prerequisites
+
+- **Python 3.8+**
+- Required libraries:
+  ```bash
+  pip install plotly matplotlib numpy
+  ```
+
+## Usage
+
+### Step 1: Run the Packing Algorithm
+
+- Execute the main script (main.py) to generate the packing plan (`output.json`):
+- Notes:
+
+  - The algorithm uses truck dimensions of 14m (length) × 2.8m (width) × 2.8m (height).
+  - Items are sorted by weight (descending) and volume (descending) for placement priority.
+
+  - Outputs:
+    - output.json: Contains item positions and assigned trucks.
+    - Console log: Total trucks used and placement errors.
+
+### Step 2: Visualize Results
+
+- Run(summaryViz.py) for Summary visualization
+- Features:
+
+  - Grid of 3D truck plots.
+  - Packing efficiency percentages.
+  - Color gradient (red = heavy, white = light items).
+
+- Run(mainViz.py) for Interactive 3D Visualization (Plotly)
+- Features:
+  - Interactive 3D plots for each truck.
+  - Hover to see item IDs and weights.
+  - Rotate/zoom to inspect placements.
+  - Labels show item IDs at cube centers.
+
+## Output Details
+
+- output.json Structure
+
+[
+{
+"Count_ID": "Item123",
+"TruckNumber": 1,
+"x": 0.0, // X-coordinate (meters)
+"y": 0.0, // Y-coordinate
+"z": 0.0, // Z-coordinate (height)
+"weight": 50.2, // Item weight (kg)
+"length": 1.2, // Item dimensions
+"width": 0.8,
+"height": 1.0,
+"volume": 0.96 // Cubic meters
+},
+...
+]
+
+## Key Constraints
+
+- Weight Capacity: Each truck supports up to 10,000 kg.
+- Stacking Rules:
+  - Items must have ≥70% area supported by lower items.
+  - Fragile items have reduced weight-bearing capacity.
+  - Rotation: All 6 possible item orientations are considered.
+
+## Troubleshooting
+
+- ModuleNotFoundError: Install missing dependencies:
+  ``pip install plotly matplotlib numpy`
+- File Path Issues: Run scripts from the root directory `(WAREHOUSERELOCATION/)`.
+- Dataset Testing: Use `data_99_items.json` in main.py for quicker results.
+- Visualization Rendering:
+  - Plotly: Requires browser support.
+  - Matplotlib: Install a backend (e.g., `pip install pyqt5`).
+
+## Algorithm Overview
+
+- Item Loading: Convert JSON data into Item objects with calculated fragility and weight-bearing capacity.
+- Space Management: Track available truck spaces using Cuboid objects.
+- Packing Logic:
+  - Prioritize heavier/larger items.
+  - Check valid rotations and stacking constraints.
+  - Split remaining space dynamically after placement.
+  - Output Generation: Write item positions and metadata to output.json.
+  - Flowchart
+    ![alt text](<Untitled diagram-2025-03-03-115718.png>)
+
+## Future Scope
+
+| Sr. No. | Future Scope                            | Comments                                                                                                                                                                                                                                                            |
+| ------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1       | Create a UI for practical application   | Kivy python package                                                                                                                                                                                                                                                 |
+| 2       | Distribute weights evenly in the trucks | The current process packs the items in such a way that the total weight of packed trucks decreases gradually from the first truck to the last. This does not break any of the constraints provided but in the real world, the weights should be distributed evenly. |
+| 3       | Handle multiple file formats            | The process can be further enhanced to work with different file formats apart from JSON (like CSV/XLSX).                                                                                                                                                            |
+| 4       | Error Handling                          | Real-time error messages instead of crashing.                                                                                                                                                                                                                       |
+| 5       | Augmented Reality                       | To guide users in real-time using the phone camera.                                                                                                                                                                                                                 |
+| 6       | Save Outputs in multiple file formats   | Provide PDF, CSV, or Excel reports summarizing the packing plan.                                                                                                                                                                                                    |

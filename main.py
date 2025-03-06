@@ -59,6 +59,8 @@ class Item:
         self.fragility = fragility
         self.weightBearingCapacity = weight / (l * w) * fragility * 10
 
+
+
 """ 
 This class is the core component of the algorithm. This class is used to model the truck and manage trucks used for packing items
 Key Purposes:
@@ -174,6 +176,15 @@ def checkStackingValidity(truck, newItem, x, y, z, l, w, h):
     
     return hasSupport and totalSupportProportion >= 0.7
 
+
+
+
+
+
+
+""" 
+The main 3d-binning algorithm is implemented below 
+"""
 items = loadItems(data)
 items.sort(key=lambda x: (-x.weight, -(x.l * x.w * x.h)))
 
@@ -181,10 +192,6 @@ trucks = []
 truckCount = 0
 
 
-
-""" 
-The main 3d-binning algorithm is implemented below 
-"""
 for item in items:
     countId = item.countId
     weight = item.weight
