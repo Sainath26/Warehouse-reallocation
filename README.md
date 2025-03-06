@@ -100,11 +100,13 @@ WAREHOUSERELOCATION/
 - Item Loading: Convert JSON data into Item objects with calculated fragility and weight-bearing capacity.
 - Space Management: Track available truck spaces using Cuboid objects.
 - Packing Logic:
+
   - Prioritize heavier/larger items.
   - Check valid rotations and stacking constraints.
   - Split remaining space dynamically after placement.
   - Output Generation: Write item positions and metadata to output.json.
   - Flowchart
+
     ![alt text](<Untitled diagram-2025-03-03-115718.png>)
 
 ## Future Scope
