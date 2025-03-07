@@ -21,7 +21,7 @@ def extractJsonData(jsonFile):
     return json.loads(dataStr)  
 
 # To change the data file, change the file name in the extractJsonData function below
-data = extractJsonData("warehouse-reallocation/data_999_items.json")
+data = extractJsonData("data_999_items.json")
 
 
 """ 
@@ -319,7 +319,7 @@ for truck in trucks:
 
 jsonString = json.dumps(output, indent=4)
 
-filePath = "warehouse-reallocation/output.json"
+filePath = "output.json"
 with open(filePath, "w") as jsonFile:
     jsonFile.write(jsonString)
 

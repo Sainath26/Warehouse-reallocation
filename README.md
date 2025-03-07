@@ -34,6 +34,7 @@ WAREHOUSERELOCATION/
 - Execute the main script (main.py) to generate the packing plan (`output.json`):
 - Notes:
 
+  - To change the input data file, go to **line 24** in `main.py` and give the relative path of the input file.
   - The algorithm uses truck dimensions of 14m (length) × 2.8m (width) × 2.8m (height).
   - Items are sorted by weight (descending) and volume (descending) for placement priority.
 
@@ -96,9 +97,11 @@ WAREHOUSERELOCATION/
 
 - ModuleNotFoundError: Install missing dependencies:
   ``pip install plotly matplotlib numpy`
-- File Path Issues: Run scripts from the root directory `(WAREHOUSERELOCATION/)`.
+- File Path Issues: Run scripts from the root directory `(warehouse-reallocation/)`.
 - To change the input data file, go to **line 24** in `main.py` and give the relative path of the input file.
+- Run `main.py` before running `mainViz.py` and `summaryViz.py`.
 - Dataset Testing: Use `data_99_items.json` in main.py for quicker results.
+- This program only accepts JSON file as inputs. Please make sure your input file is of this type.
 - Visualization Rendering:
   - Plotly: Requires browser support.
   - Matplotlib: Install a backend (e.g., `pip install pyqt5`).

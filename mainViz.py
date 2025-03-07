@@ -89,4 +89,4 @@ def visualizeTrucksPlotly(jsonFile):
         fig.show()
 
 # Usage: Replace the path below with the location of your JSON file.
-visualizeTrucksPlotly("warehouse-reallocation\output.json")
+visualizeTrucksPlotly("output.json")

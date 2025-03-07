@@ -93,4 +93,4 @@ def visualizeTrucks(jsonFile):
     plt.show()
 
 # Usage
-visualizeTrucks("warehouse-reallocation/output.json")
+visualizeTrucks("output.json")
