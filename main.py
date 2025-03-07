@@ -20,7 +20,7 @@ def extractJsonData(jsonFile):
         return json.loads(jsonStr)  
     return json.loads(dataStr)  
 
-
+# To change the data file, change the file name in the extractJsonData function below
 data = extractJsonData("warehouse-reallocation/data_999_items.json")
 
 
