@@ -50,16 +50,22 @@ WAREHOUSERELOCATION/
   - Packing efficiency percentages.
   - Color gradient (red = heavy, white = light items).
 
+  ![alt text](image-1.png)
+
 - Run(mainViz.py) for Interactive 3D Visualization (Plotly)
 - Features:
+
   - Interactive 3D plots for each truck.
   - Hover to see item IDs and weights.
   - Rotate/zoom to inspect placements.
   - Labels show item IDs at cube centers.
 
+  ![alt text](image.png)
+
 ## Output Details
 
 - output.json Structure
+
 ```plaintext
 [
 {
@@ -77,6 +83,7 @@ WAREHOUSERELOCATION/
 ...
 ]
 ```
+
 ## Key Constraints
 
 - Weight Capacity: Each truck supports up to 10,000 kg.
@@ -90,6 +97,7 @@ WAREHOUSERELOCATION/
 - ModuleNotFoundError: Install missing dependencies:
   ``pip install plotly matplotlib numpy`
 - File Path Issues: Run scripts from the root directory `(WAREHOUSERELOCATION/)`.
+- To change the input data file, go to **line 24** in `main.py` and give the relative path of the input file.
 - Dataset Testing: Use `data_99_items.json` in main.py for quicker results.
 - Visualization Rendering:
   - Plotly: Requires browser support.
