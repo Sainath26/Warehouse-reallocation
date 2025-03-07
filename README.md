@@ -60,7 +60,7 @@ WAREHOUSERELOCATION/
 ## Output Details
 
 - output.json Structure
-
+```plaintext
 [
 {
 "Count_ID": "Item123",
@@ -76,7 +76,7 @@ WAREHOUSERELOCATION/
 },
 ...
 ]
-
+```
 ## Key Constraints
 
 - Weight Capacity: Each truck supports up to 10,000 kg.
