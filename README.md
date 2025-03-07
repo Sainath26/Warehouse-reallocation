@@ -28,6 +28,7 @@ WAREHOUSERELOCATION/
   ```
 
 ## Usage
+- Ensure that the input data JSON file is located in the root directory before execution.
 
 ### Step 1: Run the Packing Algorithm
 
