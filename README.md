@@ -97,6 +97,7 @@ WAREHOUSERELOCATION/
 
 - ModuleNotFoundError: Install missing dependencies:
   ``pip install plotly matplotlib numpy`
+- When you run a visualization (e.g., mainViz.py), any other running visualization will stop. 
 - File Path Issues: Run scripts from the root directory `(warehouse-reallocation/)`.
 - To change the input data file, go to **line 24** in `main.py` and give the relative path of the input file.
 - Run `main.py` before running `mainViz.py` and `summaryViz.py`.
